@@ -1,7 +1,9 @@
 # cypher
 The file 'cypher.ipynb' is a collection of my solutions to several of the
 ciphers in the video game [Cypher by Matthew Brown](https://store.steampowered.com/app/746710/Cypher/).
-Some of these solutions use the classes defined in 'cypher.py'.
+All of the ciphers in this game can be solved by hand with a pencil and paper,
+but I decided to write up some of the more complex ciphers as coding practice
+in Python. Some of these solutions use the classes defined in 'cypher.py'.
 
 The file 'cypher.py' contains classes for constructing various cipher keys. The
 concept is that objects are cipher keys with methods that can be called to do
