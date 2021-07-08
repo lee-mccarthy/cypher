@@ -33,10 +33,10 @@ The ciphers available in this module are:
     substitutes letters in a message with letters a certain number of steps
     further down the alphabet, looping back to the top of the alphabet if the
     bottom is reached. In a Caesar cipher, the number of steps to move is
-    determined by defining a specific letter as the start of the alphabet, and
-    moving down by the difference between that letter and the letter A. In a
-    Viginère cipher, the number of steps is determined by a keyword. Start with
-    the first letter in the keyword as a Caesar cipher, then for every letter
-    moved across in the message, move across one letter in the keyword as a new
-    Caesar cipher. When the keyword runs out of letters, move back to the
-    beginning of it. <https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher>
+    determined by a letter, with A meaning 1 step, and B meaning 2 steps, all
+    the way down to Z meaning 26 steps, or a complete rotation of the alphabet.
+    In a Viginère cipher, the number of steps is determined by a keyword. Start
+    with the first letter in the keyword as a Caesar cipher, then for every
+    letter moved across in the message, move across one letter in the keyword
+    as a new Caesar cipher. When the keyword runs out of letters, move back to
+    the beginning of it. <https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher>
