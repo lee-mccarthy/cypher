@@ -28,14 +28,14 @@ The ciphers available in this module are:
     - A cipher that maps the letters of the alphabet to a two-dimensional grid.
     The grid is the key, and messages are encrypted as (X, Y) coordinates on the
     grid. <https://en.wikipedia.org/wiki/Polybius_square>
-- Viginère Cipher
-    - Essentially a Caesar cipher with extra steps, the Viginère cipher
+- Vigenère Cipher
+    - Essentially a Caesar cipher with extra steps, the Vigenère cipher
     substitutes letters in a message with letters a certain number of steps
     further down the alphabet, looping back to the top of the alphabet if the
     bottom is reached. In a Caesar cipher, the number of steps to move is
     determined by a letter, with A meaning 1 step, and B meaning 2 steps, all
     the way down to Z meaning 26 steps, or a complete rotation of the alphabet.
-    In a Viginère cipher, the number of steps is determined by a keyword. Start
+    In a Vigenère cipher, the number of steps is determined by a keyword. Start
     with the first letter in the keyword as a Caesar cipher, then for every
     letter moved across in the message, move across one letter in the keyword
     as a new Caesar cipher. When the keyword runs out of letters, move back to
