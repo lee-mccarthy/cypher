@@ -41,4 +41,4 @@ The ciphers available in this module are:
     with the first letter in the keyword as a Caesar cipher, then for every
     letter moved across in the message, move across one letter in the keyword
     as a new Caesar cipher. When the keyword runs out of letters, move back to
-    the beginning of it. <https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher>
+    the beginning of it. <https://en.wikipedia.org/wiki/Vigenère_cipher>
